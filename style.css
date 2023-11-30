@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 120vh;
+    max-width: 1024px;
+    margin: auto;
+    background-color: rgb(240, 234, 228);
+    font-family: 'Prompt', sans-serif;
+}
+header {
+    /* background-color: rgb(114, 76, 19) !important; */
+    /* height: 70px; */
+    /* padding: 25px; */
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+    /* padding-block: 25px; */
+    /* padding-inline: 10px; */
+    height: 170px;
+}
+header img {
+    height: 100%;
+    width: 1000px;
+}
+nav {
+    background-color: rgb(240, 234, 228);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 30px;
+}
+nav img{
+    height: 100%;
+    width: 28px;
+    border-radius: 50%;
+    /* overflow:hidden; */
+    vertical-align: middle;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+.prev{
+    font-size: 20px;
+}
+.button-group button { 
+    /* ลูกและหลานด้วย */
+    border: 1px solid rgb(65, 38, 18);
+    border-radius: 15px;
+    background-color: rgb(240, 234, 228);;
+}
+.button-group button:last-child {
+    border: none;
+}
+.welcome {
+    font-size: 32px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin-top: 40px;
+    color: rgb(209, 164, 106);
+}
+.select-header {
+    font-size: 40px;
+    text-align: center;
+    /* background-color: mediumpurple; */
+    margin-top: 12px;
+    margin-bottom: 24px;
+    color: rgb(65, 38, 18);
+}
+.items-row {
+    /* background-color: cadetblue; */
+    /* border: 1px dashed lightgreen; */
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+.item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 150px;
+    /* text-align:center; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.item-pic > img {
+    width: 50px;
+}
+
+.item-text {
+    text-align: center;
+    width: 100px;
+}
+/* nav > * {
+    color: blue;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 16px;
+}
+nav > *:first-child {
+    margin-right: 410px;
+} */
+/* .item-pic {
+    vertical-align: auto
+} */
